@@ -1,0 +1,41 @@
+.class public interface abstract Lroe;
+.super Ljava/lang/Object;
+.source "PG"
+
+
+# static fields
+.field public static final b:Lroe;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 2
+
+    .line 1
+    sget v0, Lrod;->a:I
+
+    .line 2
+    .line 3
+    new-instance v0, Lroc;
+
+    .line 4
+    .line 5
+    const/4 v1, 0x0
+
+    .line 6
+    invoke-direct {v0, v1}, Lroc;-><init>(I)V
+
+    .line 7
+    .line 8
+    .line 9
+    sput-object v0, Lroe;->b:Lroe;
+
+    .line 10
+    .line 11
+    return-void
+.end method
+
+
+# virtual methods
+.method public abstract a(Landroid/view/View;)I
+.end method

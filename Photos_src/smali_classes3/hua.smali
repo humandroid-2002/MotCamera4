@@ -1,0 +1,20 @@
+.class public interface abstract Lhua;
+.super Ljava/lang/Object;
+.source "PG"
+
+
+# virtual methods
+.method public abstract a(Ljava/lang/String;)Ljava/util/List;
+.end method
+
+.method public abstract b(Lhxy;)Z
+.end method
+
+.method public abstract c(Lhxy;)Ligz;
+.end method
+
+.method public abstract d(Lhxy;)Ligz;
+.end method
+
+.method public abstract e(Lhyj;)Ligz;
+.end method

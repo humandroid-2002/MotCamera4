@@ -1,0 +1,37 @@
+.class final Lbrcm;
+.super Ljava/lang/Object;
+.source "PG"
+
+
+# static fields
+.field static final a:L_2566;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 3
+
+    .line 1
+    sget-object v0, Lbkcm;->i:Lbkcm;
+
+    .line 2
+    .line 3
+    new-instance v1, L_2566;
+
+    .line 4
+    .line 5
+    const-string v2, ""
+
+    .line 6
+    .line 7
+    invoke-direct {v1, v0, v2, v0, v2}, L_2566;-><init>(Lbkcm;Ljava/lang/Object;Lbkcm;Ljava/lang/Object;)V
+
+    .line 8
+    .line 9
+    .line 10
+    sput-object v1, Lbrcm;->a:L_2566;
+
+    .line 11
+    .line 12
+    return-void
+.end method

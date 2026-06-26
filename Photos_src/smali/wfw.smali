@@ -1,0 +1,6 @@
+.class public interface abstract Lwfw;
+.super Ljava/lang/Object;
+.source "PG"
+
+# interfaces
+.implements Lwem;

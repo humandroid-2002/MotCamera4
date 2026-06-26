@@ -1,0 +1,6 @@
+.class public interface abstract Lpoj;
+.super Ljava/lang/Object;
+.source "PG"
+
+# interfaces
+.implements Lpoi;

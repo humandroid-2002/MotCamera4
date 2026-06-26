@@ -1,0 +1,6 @@
+.class public interface abstract Ltzj;
+.super Ljava/lang/Object;
+.source "PG"
+
+# interfaces
+.implements Ltzi;

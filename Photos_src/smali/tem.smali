@@ -1,0 +1,178 @@
+.class final Ltem;
+.super Ljava/lang/Object;
+.source "PG"
+
+# interfaces
+.implements Ltex;
+
+
+# static fields
+.field private static final a:[Ljava/lang/String;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 3
+
+    .line 1
+    const-string v0, "dedup_key"
+
+    .line 2
+    .line 3
+    const-string v1, "oem_special_type"
+
+    .line 4
+    .line 5
+    const-string v2, "_id"
+
+    .line 6
+    .line 7
+    filled-new-array {v2, v0, v1}, [Ljava/lang/String;
+
+    .line 8
+    .line 9
+    .line 10
+    move-result-object v0
+
+    .line 11
+    sput-object v0, Ltem;->a:[Ljava/lang/String;
+
+    .line 12
+    .line 13
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(ILbbfx;)I
+    .locals 3
+
+    .line 1
+    new-instance p1, Lteg;
+
+    .line 2
+    .line 3
+    invoke-direct {p1}, Lteg;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    new-instance v0, Lvsk;
+
+    .line 7
+    .line 8
+    const/4 v1, 0x0
+
+    .line 9
+    const-string v2, "remote_media"
+
+    .line 10
+    .line 11
+    invoke-direct {v0, p1, v2, v1}, Lvsk;-><init>(Ljava/lang/Object;Ljava/lang/Object;[C)V
+
+    .line 12
+    .line 13
+    .line 14
+    sget-object v1, Ltem;->a:[Ljava/lang/String;
+
+    .line 15
+    .line 16
+    invoke-virtual {v0, v1}, Lvsk;->e([Ljava/lang/String;)Llsy;
+
+    .line 17
+    .line 18
+    .line 19
+    move-result-object v0
+
+    .line 20
+    const-string v1, "_id"
+
+    .line 21
+    .line 22
+    invoke-virtual {v0, v1}, Llsy;->aD(Ljava/lang/String;)Lusx;
+
+    .line 23
+    .line 24
+    .line 25
+    move-result-object v0
+
+    .line 26
+    const/4 v1, 0x0
+
+    .line 27
+    new-array v1, v1, [Ljava/lang/String;
+
+    .line 28
+    .line 29
+    const-string v2, "oem_special_type IS NOT NULL "
+
+    .line 30
+    .line 31
+    invoke-virtual {v0, v2, v1}, Lusx;->e(Ljava/lang/String;[Ljava/lang/String;)Laadi;
+
+    .line 32
+    .line 33
+    .line 34
+    move-result-object v0
+
+    .line 35
+    invoke-virtual {v0}, Laadi;->c()Ltjr;
+
+    .line 36
+    .line 37
+    .line 38
+    move-result-object v0
+
+    .line 39
+    const/16 v1, 0x1f4
+
+    .line 40
+    .line 41
+    invoke-static {p2, v1, v0}, Ltjn;->c(Lbbfx;ILtjs;)V
+
+    .line 42
+    .line 43
+    .line 44
+    iget p1, p1, Lteg;->a:I
+
+    .line 45
+    .line 46
+    return p1
+.end method
+
+.method public final synthetic b()Lbfel;
+    .locals 1
+
+    .line 1
+    sget v0, Lbfel;->d:I
+
+    .line 2
+    .line 3
+    sget-object v0, Lbflx;->a:Lbfel;
+
+    .line 4
+    .line 5
+    return-object v0
+.end method
+
+.method public final synthetic c()Z
+    .locals 1
+
+    .line 1
+    const/4 v0, 0x1
+
+    .line 2
+    return v0
+.end method

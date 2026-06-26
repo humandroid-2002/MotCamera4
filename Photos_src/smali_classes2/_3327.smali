@@ -1,0 +1,63 @@
+.class public final L_3327;
+.super Ljava/lang/Object;
+.source "PG"
+
+
+# instance fields
+.field public final a:Lbfel;
+
+
+# direct methods
+.method public constructor <init>(Landroid/content/Context;)V
+    .locals 2
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    const-class v0, L_3326;
+
+    .line 5
+    .line 6
+    invoke-static {p1, v0}, Lbcsc;->m(Landroid/content/Context;Ljava/lang/Class;)Ljava/util/List;
+
+    .line 7
+    .line 8
+    .line 9
+    move-result-object p1
+
+    .line 10
+    new-instance v0, Latyd;
+
+    .line 11
+    .line 12
+    const/16 v1, 0x12
+
+    .line 13
+    .line 14
+    invoke-direct {v0, v1}, Latyd;-><init>(I)V
+
+    .line 15
+    .line 16
+    .line 17
+    invoke-static {p1, v0}, Ljava/util/Collections;->sort(Ljava/util/List;Ljava/util/Comparator;)V
+
+    .line 18
+    .line 19
+    .line 20
+    invoke-static {p1}, Lbfel;->i(Ljava/util/Collection;)Lbfel;
+
+    .line 21
+    .line 22
+    .line 23
+    move-result-object p1
+
+    .line 24
+    iput-object p1, p0, L_3327;->a:Lbfel;
+
+    .line 25
+    .line 26
+    return-void
+.end method

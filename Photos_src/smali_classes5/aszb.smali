@@ -1,0 +1,3 @@
+.class public interface abstract Laszb;
+.super Ljava/lang/Object;
+.source "PG"

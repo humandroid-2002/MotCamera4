@@ -1,0 +1,449 @@
+.class public final Lhgq;
+.super Ljava/lang/Object;
+.source "PG"
+
+# interfaces
+.implements Lbpjl;
+
+
+# instance fields
+.field public final a:Lbpxz;
+
+.field public final b:Lhgm;
+
+.field public c:Ljava/lang/Object;
+
+.field private final d:Lbphe;
+
+.field private final synthetic e:I
+
+.field private final f:Ljava/lang/Object;
+
+
+# direct methods
+.method public constructor <init>(Ljava/lang/Object;Lbpxz;Lhgm;Lbphe;I)V
+    .locals 0
+
+    .line 1
+    iput p5, p0, Lhgq;->e:I
+
+    .line 2
+    .line 3
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    iput-object p1, p0, Lhgq;->f:Ljava/lang/Object;
+
+    .line 7
+    .line 8
+    iput-object p2, p0, Lhgq;->a:Lbpxz;
+
+    .line 9
+    .line 10
+    iput-object p3, p0, Lhgq;->b:Lhgm;
+
+    .line 11
+    .line 12
+    iput-object p4, p0, Lhgq;->d:Lbphe;
+
+    .line 13
+    .line 14
+    return-void
+.end method
+
+.method private final c(Ljava/lang/String;)V
+    .locals 2
+
+    .line 1
+    new-instance v0, Lesl;
+
+    .line 2
+    .line 3
+    const/4 v1, 0x2
+
+    .line 4
+    invoke-direct {v0, p0, v1}, Lesl;-><init>(Ljava/lang/Object;I)V
+
+    .line 5
+    .line 6
+    .line 7
+    iget-object v1, p0, Lhgq;->f:Ljava/lang/Object;
+
+    .line 8
+    .line 9
+    check-cast v1, Ljkn;
+
+    .line 10
+    .line 11
+    invoke-virtual {v1, p1, v0}, Ljkn;->b(Ljava/lang/String;Lhge;)V
+
+    .line 12
+    .line 13
+    .line 14
+    return-void
+.end method
+
+.method private final d(Ljava/lang/String;)V
+    .locals 2
+
+    .line 1
+    new-instance v0, Lesl;
+
+    .line 2
+    .line 3
+    const/4 v1, 0x0
+
+    .line 4
+    invoke-direct {v0, p0, v1}, Lesl;-><init>(Ljava/lang/Object;I)V
+
+    .line 5
+    .line 6
+    .line 7
+    iget-object v1, p0, Lhgq;->f:Ljava/lang/Object;
+
+    .line 8
+    .line 9
+    check-cast v1, Lerp;
+
+    .line 10
+    .line 11
+    iget-object v1, v1, Lerp;->b:Ljava/lang/Object;
+
+    .line 12
+    .line 13
+    check-cast v1, Lhat;
+
+    .line 14
+    .line 15
+    iget-object v1, v1, Lhat;->b:Ljava/lang/Object;
+
+    .line 16
+    .line 17
+    invoke-interface {v1, p1, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 18
+    .line 19
+    .line 20
+    return-void
+.end method
+
+
+# virtual methods
+.method public final b(Ljava/lang/Object;Lbpkm;Ljava/lang/Object;)V
+    .locals 1
+
+    .line 1
+    iget v0, p0, Lhgq;->e:I
+
+    .line 2
+    .line 3
+    if-eqz v0, :cond_1
+
+    .line 4
+    .line 5
+    invoke-virtual {p2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 6
+    .line 7
+    .line 8
+    iget-object v0, p0, Lhgq;->c:Ljava/lang/Object;
+
+    .line 9
+    .line 10
+    if-nez v0, :cond_0
+
+    .line 11
+    .line 12
+    invoke-static {p1, p2}, Lb;->t(Ljava/lang/Object;Lbpkm;)Ljava/lang/String;
+
+    .line 13
+    .line 14
+    .line 15
+    move-result-object p1
+
+    .line 16
+    invoke-direct {p0, p1}, Lhgq;->d(Ljava/lang/String;)V
+
+    .line 17
+    .line 18
+    .line 19
+    :cond_0
+    iput-object p3, p0, Lhgq;->c:Ljava/lang/Object;
+
+    .line 20
+    .line 21
+    return-void
+
+    .line 22
+    :cond_1
+    invoke-virtual {p2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 23
+    .line 24
+    .line 25
+    iget-object v0, p0, Lhgq;->c:Ljava/lang/Object;
+
+    .line 26
+    .line 27
+    if-nez v0, :cond_2
+
+    .line 28
+    .line 29
+    invoke-static {p1, p2}, Lb;->t(Ljava/lang/Object;Lbpkm;)Ljava/lang/String;
+
+    .line 30
+    .line 31
+    .line 32
+    move-result-object p1
+
+    .line 33
+    invoke-direct {p0, p1}, Lhgq;->c(Ljava/lang/String;)V
+
+    .line 34
+    .line 35
+    .line 36
+    :cond_2
+    iput-object p3, p0, Lhgq;->c:Ljava/lang/Object;
+
+    .line 37
+    .line 38
+    return-void
+.end method
+
+.method public final e(Ljava/lang/Object;Lbpkm;)Ljava/lang/Object;
+    .locals 3
+
+    .line 1
+    iget v0, p0, Lhgq;->e:I
+
+    .line 2
+    .line 3
+    const/4 v1, 0x0
+
+    .line 4
+    const-string v2, "value"
+
+    .line 5
+    .line 6
+    if-eqz v0, :cond_4
+
+    .line 7
+    .line 8
+    invoke-virtual {p2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 9
+    .line 10
+    .line 11
+    iget-object v0, p0, Lhgq;->c:Ljava/lang/Object;
+
+    .line 12
+    .line 13
+    if-nez v0, :cond_2
+
+    .line 14
+    .line 15
+    invoke-static {p1, p2}, Lb;->t(Ljava/lang/Object;Lbpkm;)Ljava/lang/String;
+
+    .line 16
+    .line 17
+    .line 18
+    move-result-object p1
+
+    .line 19
+    invoke-direct {p0, p1}, Lhgq;->d(Ljava/lang/String;)V
+
+    .line 20
+    .line 21
+    .line 22
+    iget-object p2, p0, Lhgq;->f:Ljava/lang/Object;
+
+    .line 23
+    .line 24
+    check-cast p2, Lerp;
+
+    .line 25
+    .line 26
+    invoke-virtual {p2, p1}, Lerp;->b(Ljava/lang/String;)Ljava/lang/Object;
+
+    .line 27
+    .line 28
+    .line 29
+    move-result-object p1
+
+    .line 30
+    check-cast p1, Landroid/os/Bundle;
+
+    .line 31
+    .line 32
+    if-eqz p1, :cond_0
+
+    .line 33
+    .line 34
+    iget-object p2, p0, Lhgq;->a:Lbpxz;
+
+    .line 35
+    .line 36
+    iget-object v0, p0, Lhgq;->b:Lhgm;
+
+    .line 37
+    .line 38
+    invoke-static {p2, p1, v0}, Lejw;->s(Lbpxy;Landroid/os/Bundle;Lhgm;)Ljava/lang/Object;
+
+    .line 39
+    .line 40
+    .line 41
+    move-result-object v1
+
+    .line 42
+    :cond_0
+    if-nez v1, :cond_1
+
+    .line 43
+    .line 44
+    iget-object p1, p0, Lhgq;->d:Lbphe;
+
+    .line 45
+    .line 46
+    invoke-interface {p1}, Lbphe;->a()Ljava/lang/Object;
+
+    .line 47
+    .line 48
+    .line 49
+    move-result-object v1
+
+    .line 50
+    :cond_1
+    iput-object v1, p0, Lhgq;->c:Ljava/lang/Object;
+
+    .line 51
+    .line 52
+    :cond_2
+    iget-object p1, p0, Lhgq;->c:Ljava/lang/Object;
+
+    .line 53
+    .line 54
+    if-nez p1, :cond_3
+
+    .line 55
+    .line 56
+    invoke-static {v2}, Lbpil;->b(Ljava/lang/String;)V
+
+    .line 57
+    .line 58
+    .line 59
+    sget-object p1, Lbpdv;->a:Lbpdv;
+
+    .line 60
+    .line 61
+    :cond_3
+    return-object p1
+
+    .line 62
+    :cond_4
+    invoke-virtual {p2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 63
+    .line 64
+    .line 65
+    iget-object v0, p0, Lhgq;->c:Ljava/lang/Object;
+
+    .line 66
+    .line 67
+    if-nez v0, :cond_7
+
+    .line 68
+    .line 69
+    invoke-static {p1, p2}, Lb;->t(Ljava/lang/Object;Lbpkm;)Ljava/lang/String;
+
+    .line 70
+    .line 71
+    .line 72
+    move-result-object p1
+
+    .line 73
+    invoke-direct {p0, p1}, Lhgq;->c(Ljava/lang/String;)V
+
+    .line 74
+    .line 75
+    .line 76
+    iget-object p2, p0, Lhgq;->f:Ljava/lang/Object;
+
+    .line 77
+    .line 78
+    check-cast p2, Ljkn;
+
+    .line 79
+    .line 80
+    invoke-virtual {p2, p1}, Ljkn;->a(Ljava/lang/String;)Landroid/os/Bundle;
+
+    .line 81
+    .line 82
+    .line 83
+    move-result-object p1
+
+    .line 84
+    if-eqz p1, :cond_5
+
+    .line 85
+    .line 86
+    iget-object p2, p0, Lhgq;->a:Lbpxz;
+
+    .line 87
+    .line 88
+    iget-object v0, p0, Lhgq;->b:Lhgm;
+
+    .line 89
+    .line 90
+    invoke-static {p2, p1, v0}, Lejw;->s(Lbpxy;Landroid/os/Bundle;Lhgm;)Ljava/lang/Object;
+
+    .line 91
+    .line 92
+    .line 93
+    move-result-object v1
+
+    .line 94
+    :cond_5
+    if-nez v1, :cond_6
+
+    .line 95
+    .line 96
+    iget-object p1, p0, Lhgq;->d:Lbphe;
+
+    .line 97
+    .line 98
+    invoke-interface {p1}, Lbphe;->a()Ljava/lang/Object;
+
+    .line 99
+    .line 100
+    .line 101
+    move-result-object v1
+
+    .line 102
+    :cond_6
+    iput-object v1, p0, Lhgq;->c:Ljava/lang/Object;
+
+    .line 103
+    .line 104
+    :cond_7
+    iget-object p1, p0, Lhgq;->c:Ljava/lang/Object;
+
+    .line 105
+    .line 106
+    if-nez p1, :cond_8
+
+    .line 107
+    .line 108
+    invoke-static {v2}, Lbpil;->b(Ljava/lang/String;)V
+
+    .line 109
+    .line 110
+    .line 111
+    sget-object p1, Lbpdv;->a:Lbpdv;
+
+    .line 112
+    .line 113
+    :cond_8
+    return-object p1
+.end method

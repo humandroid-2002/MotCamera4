@@ -1,0 +1,11 @@
+.class public interface abstract L_2228;
+.super Ljava/lang/Object;
+.source "PG"
+
+# interfaces
+.implements Lbcsh;
+
+
+# virtual methods
+.method public abstract a(Landroid/content/Context;)Landroid/content/Intent;
+.end method

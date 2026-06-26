@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/photos_stories_fullscreen_share_action" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/photos_stories_actions_tap_target" android:minHeight="@dimen/photos_stories_actions_tap_target"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center" android:background="@drawable/photos_stories_action_bar_button_drawable_v4" android:layout_width="@dimen/photos_stories_actions_fullscreen_bg_size" android:layout_height="@dimen/photos_stories_actions_fullscreen_bg_size" android:contentDescription="@null" />
+    <ImageView android:theme="@style/photos_stories_actions_Theme" android:layout_gravity="center" android:layout_width="@dimen/photos_stories_actions_full_screen_action_icon_size" android:layout_height="@dimen/photos_stories_actions_full_screen_action_icon_size" android:contentDescription="@string/photos_stories_actions_more_actions" app:srcCompat="@drawable/quantum_gm_ic_more_vert_vd_theme_24" />
+</FrameLayout>

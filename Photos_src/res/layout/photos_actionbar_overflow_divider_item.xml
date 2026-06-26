@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/photos_actionbar_overflow_divider_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.divider.MaterialDivider android:layout_width="fill_parent" android:layout_height="wrap_content" app:dividerColor="@color/gm3_sys_color_light_outline_variant" app:dividerThickness="1.0dip" xmlns:app="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

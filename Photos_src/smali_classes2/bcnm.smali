@@ -1,0 +1,112 @@
+.class public final Lbcnm;
+.super Lbbcw;
+.source "PG"
+
+
+# instance fields
+.field public final b:Lbqmd;
+
+
+# direct methods
+.method public constructor <init>(Lbbcz;Lbqmd;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0, p1}, Lbbcw;-><init>(Lbbcz;)V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p2, p0, Lbcnm;->b:Lbqmd;
+
+    .line 5
+    .line 6
+    return-void
+.end method
+
+
+# virtual methods
+.method public final equals(Ljava/lang/Object;)Z
+    .locals 1
+
+    .line 1
+    invoke-super {p0, p1}, Lbbcw;->equals(Ljava/lang/Object;)Z
+
+    .line 2
+    .line 3
+    .line 4
+    move-result v0
+
+    .line 5
+    if-eqz v0, :cond_0
+
+    .line 6
+    .line 7
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 8
+    .line 9
+    .line 10
+    iget-object v0, p0, Lbcnm;->b:Lbqmd;
+
+    .line 11
+    .line 12
+    check-cast p1, Lbcnm;
+
+    .line 13
+    .line 14
+    iget-object p1, p1, Lbcnm;->b:Lbqmd;
+
+    .line 15
+    .line 16
+    iget v0, v0, Lbqmd;->c:I
+
+    .line 17
+    .line 18
+    iget p1, p1, Lbqmd;->c:I
+
+    .line 19
+    .line 20
+    if-ne v0, p1, :cond_0
+
+    .line 21
+    .line 22
+    const/4 p1, 0x1
+
+    .line 23
+    return p1
+
+    .line 24
+    :cond_0
+    const/4 p1, 0x0
+
+    .line 25
+    return p1
+.end method
+
+.method public final hashCode()I
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Lbcnm;->b:Lbqmd;
+
+    .line 2
+    .line 3
+    invoke-super {p0}, Lbbcw;->hashCode()I
+
+    .line 4
+    .line 5
+    .line 6
+    move-result v1
+
+    .line 7
+    invoke-static {v0, v1}, Lbaxx;->am(Ljava/lang/Object;I)I
+
+    .line 8
+    .line 9
+    .line 10
+    move-result v0
+
+    .line 11
+    return v0
+.end method

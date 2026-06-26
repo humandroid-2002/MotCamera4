@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.SettingsBase" parent="@style/Theme.SettingsBase_v36" />
+    <style name="CollapsingToolbarLayoutStyle.SettingsLib" parent="@style/Base.CollapsingToolbarLayoutStyle.SettingsLib">
+        <item name="collapsedTitleTextColor">@color/settingslib_materialColorOnSurface</item>
+        <item name="expandedTitleTextColor">@color/settingslib_materialColorOnSurface</item>
+    </style>
+    <style name="Theme.CollapsingToolbar.Settings" parent="@style/Theme.MaterialComponents.DayNight">
+        <item name="colorAccent">@color/settingslib_materialColorPrimary</item>
+        <item name="colorPrimary">@color/settingslib_materialColorOnSurfaceInverse</item>
+        <item name="elevationOverlayColor">?colorPrimary</item>
+        <item name="elevationOverlayEnabled">true</item>
+    </style>
+    <style name="Seekbar.SettingsLib" parent="@android:style/Widget.Material.SeekBar">
+        <item name="android:progressTint">@android:color/system_accent1_800</item>
+        <item name="android:progressBackgroundTint">@color/settingslib_neutral_variant55</item>
+        <item name="android:progressBackgroundTintMode">src_over</item>
+        <item name="android:thumbTint">@android:color/system_accent1_800</item>
+    </style>
+    <style name="SettingsLibCollapsingToolbarLayoutStyle">
+        <item name="collapsedTitleTextAppearance">@style/SettingsLibCollapsingToolbarTitle.Collapsed</item>
+        <item name="collapsedTitleTextColor">@color/settingslib_materialColorOnSurface</item>
+        <item name="contentScrim">@color/settingslib_materialColorSurfaceVariant</item>
+        <item name="expandedTitleMarginBottom">@dimen/settingslib_expressive_space_medium1</item>
+        <item name="expandedTitleMarginEnd">@dimen/settingslib_expressive_space_small4</item>
+        <item name="expandedTitleMarginStart">@dimen/settingslib_expressive_space_small4</item>
+        <item name="expandedTitleTextAppearance">@style/SettingsLibCollapsingToolbarTitle.Expanded</item>
+        <item name="expandedTitleTextColor">@color/settingslib_materialColorOnSurface</item>
+        <item name="maxLines">3</item>
+        <item name="scrimAnimationDuration">50</item>
+        <item name="scrimVisibleHeightTrigger">@dimen/settingslib_scrim_visible_height_trigger</item>
+        <item name="statusBarScrim">@null</item>
+    </style>
+    <style name="SettingsLibCollapsingToolbarLayoutStyle.Expressive" parent="@style/SettingsLibCollapsingToolbarLayoutStyle">
+        <item name="contentScrim">@color/settingslib_materialColorSurfaceContainer</item>
+    </style>
+    <style name="SettingsLibCollapsingToolbarTitle.Collapsed" parent="@style/TextAppearance.SettingsLib.TitleLarge.Emphasized">
+        <item name="android:textSize">22.0dip</item>
+    </style>
+    <style name="SettingsLibCollapsingToolbarTitle.Expanded" parent="@style/TextAppearance.SettingsLib.DisplaySmall.Emphasized">
+        <item name="android:textSize">36.0dip</item>
+    </style>
+    <style name="SettingsLibTheme.CollapsingToolbar.Expressive" parent="@style/Theme.MaterialComponents.DayNight" />
+    <style name="Theme.SettingsBase_v36" parent="@style/Theme.SettingsBase_v33">
+        <item name="android:colorBackground">@color/settingslib_materialColorSurfaceContainer</item>
+        <item name="android:textColorPrimary">@color/settingslib_materialColorOnSurface</item>
+        <item name="android:textColorSecondary">@color/settingslib_text_color_secondary</item>
+        <item name="android:seekBarStyle">@style/Seekbar.SettingsLib</item>
+        <item name="android:clipChildren">false</item>
+        <item name="android:clipToPadding">false</item>
+        <item name="android:textColorTertiary">@color/settingslib_materialColorOutline</item>
+        <item name="android:colorAccent">@color/settingslib_materialColorPrimary</item>
+    </style>
+    <style name="Widget.SettingsLib.Material3Expressive.FloatingToolbar" parent="@style/Base.Widget.Material3.FloatingToolbar">
+        <item name="android:layout_gravity">bottom|center</item>
+        <item name="android:paddingTop">@dimen/settingslib_expressive_space_extrasmall6</item>
+        <item name="android:paddingBottom">@dimen/settingslib_expressive_space_extrasmall6</item>
+        <item name="android:paddingStart">@dimen/settingslib_expressive_space_extrasmall6</item>
+        <item name="android:paddingEnd">@dimen/settingslib_expressive_space_extrasmall6</item>
+        <item name="backgroundTint">@color/settingslib_materialColorSurfaceContainerHighest</item>
+    </style>
+</resources>

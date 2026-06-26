@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.photos.home.ui.expandableheader.HeaderExpansionViewContainerLayout android:id="@id/photos_home_header_expansion_view_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:insetLeft="4.0dip" android:insetBottom="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <layer-list>
+        <item>
+            <shape android:shape="oval">
+                <solid android:color="@color/photos_stories_action_bar_button_background_color" />
+            </shape>
+        </item>
+        <item android:height="20.0dip" android:width="20.0dip" android:drawable="@drawable/quantum_gm_ic_close_white_24" android:left="6.0dip" android:top="6.0dip" android:right="6.0dip" android:bottom="6.0dip" />
+    </layer-list>
+</inset>

@@ -1,0 +1,27 @@
+.class public Lbatl;
+.super Ljava/lang/Object;
+.source "PG"
+
+
+# instance fields
+.field public mainText:Ljava/lang/String;
+
+.field public mainTextMatchedSubstrings:[Lbatm;
+
+.field public secondaryText:Ljava/lang/String;
+
+.field public secondaryTextMatchedSubstrings:[Lbatm;
+
+
+# direct methods
+.method constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method

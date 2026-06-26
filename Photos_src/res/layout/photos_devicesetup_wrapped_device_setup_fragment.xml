@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/onboarding_wrapped_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:layout_weight="1.0" android:layout_marginHorizontal="20.0dip" app:cardBackgroundColor="?colorSurfaceContainerLowest" app:cardCornerRadius="40.0dip" app:cardElevation="0.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true">
+            <ScrollView android:id="@id/onboarding_scroll_content" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <LinearLayout android:orientation="vertical" android:padding="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textAppearance="@style/TextAppearance.Photos.HeadlineSmall.Emphasized" android:id="@id/onboarding_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginBottom="36.0dip" android:textAlignment="center" android:breakStrategy="balanced" />
+                    <androidx.compose.ui.platform.ComposeView android:id="@id/onboarding_account_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" />
+                    <TextView android:textAppearance="@style/TextAppearance.Photos.BodyLarge" android:id="@id/onboarding_subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip" android:textAlignment="center" android:breakStrategy="balanced" />
+                </LinearLayout>
+            </ScrollView>
+            <LinearLayout android:orientation="vertical" android:id="@id/onboarding_action_group" android:background="?colorSurfaceContainerLowest" android:padding="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:id="@id/onboarding_toggle_group" android:paddingLeft="6.0dip" android:paddingRight="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip" android:paddingHorizontal="6.0dip">
+                    <TextView android:layout_gravity="center_vertical" android:id="@id/onboarding_toggle_label" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/photos_devicesetup_backup_automatically" android:layout_weight="1.0" android:layout_marginEnd="16.0dip" style="@style/TextAppearance.Photos.BodySmall.Emphasized" />
+                    <com.google.android.material.materialswitch.MaterialSwitch android:layout_gravity="center_vertical" android:id="@id/onboarding_toggle" android:layout_width="wrap_content" android:layout_height="48.0dip" android:checked="true" />
+                </LinearLayout>
+                <androidx.compose.ui.platform.ComposeView android:id="@id/onboarding_mobile_data" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <com.google.android.material.button.MaterialButton android:layout_gravity="center" android:id="@id/onboarding_action_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" app:materialSizeOverlay="@style/SizeOverlay.PhotosExpressive.Button.Medium" style="@style/Widget.PhotosExpressive.Button" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <TextView android:textAppearance="@style/TextAppearance.Photos.Caption" android:textColorLink="?android:textColorSecondary" android:id="@id/onboarding_disclaimer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="24.0dip" android:textAlignment="center" android:breakStrategy="balanced" style="@style/TextAppearance.Photos.BodySmall" />
+</LinearLayout>

@@ -1,0 +1,24 @@
+.class public final Lbzl;
+.super Ljava/lang/Object;
+.source "PG"
+
+
+# static fields
+.field public static final a:Lbzx;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    .line 1
+    sget-object v0, Lbzx;->j:Lbzx;
+
+    .line 2
+    .line 3
+    sput-object v0, Lbzl;->a:Lbzx;
+
+    .line 4
+    .line 5
+    return-void
+.end method

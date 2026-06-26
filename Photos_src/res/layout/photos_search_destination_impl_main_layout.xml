@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/photos_search_tab_container" android:background="?android:colorBackground" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.apps.photos.orthogonalscroll.VerticalParentRecyclerView android:id="@id/photos_search_destination_searchtab_recycler_view" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:defaultFocusHighlightEnabled="false" />
+    <include layout="@layout/photos_search_destination_searchbar_layout" />
+    <ViewStub android:layout_gravity="bottom|center" android:id="@id/photos_search_destination_impl_compose_searchbar_viewstub" android:layout="@layout/photos_search_destination_searchbar_compose_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

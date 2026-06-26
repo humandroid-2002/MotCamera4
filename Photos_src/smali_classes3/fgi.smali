@@ -1,0 +1,6 @@
+.class interface abstract Lfgi;
+.super Ljava/lang/Object;
+.source "PG"
+
+# interfaces
+.implements Lffq;

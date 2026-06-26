@@ -1,0 +1,43 @@
+.class final Laztg;
+.super Ljava/lang/Object;
+.source "PG"
+
+
+# instance fields
+.field public final a:Lbmwf;
+
+.field public final b:Lbpcw;
+
+.field public final c:Lbmwf;
+
+.field public final d:Landroid/content/Context;
+
+
+# direct methods
+.method public constructor <init>(Landroid/content/Context;Lbpcw;Lbmwf;Lbmwf;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p3, p0, Laztg;->a:Lbmwf;
+
+    .line 5
+    .line 6
+    iput-object p1, p0, Laztg;->d:Landroid/content/Context;
+
+    .line 7
+    .line 8
+    iput-object p2, p0, Laztg;->b:Lbpcw;
+
+    .line 9
+    .line 10
+    iput-object p4, p0, Laztg;->c:Lbmwf;
+
+    .line 11
+    .line 12
+    return-void
+.end method

@@ -1,0 +1,31 @@
+.class public abstract Lmnn;
+.super Lmno;
+.source "PG"
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Lmno;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method
+
+
+# virtual methods
+.method public abstract b()I
+.end method
+
+.method public abstract c()I
+.end method
+
+.method public abstract d()J
+.end method
+
+.method public abstract e()Lamne;
+.end method
